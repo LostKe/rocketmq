@@ -108,7 +108,7 @@ public class DefaultMQAdminExtTest {
         //创建消费组 Consumer的集合名称
         String masterAddr="119.29.8.106:10911";//broker地址
         SubscriptionGroupConfig subscriptionGroupConfig=new SubscriptionGroupConfig();
-        subscriptionGroupConfig.setGroupName("consumerGroup1");
+        subscriptionGroupConfig.setGroupName("consumerGroup-20180701");
         //broker注册消费组
         defaultMQAdminExt.createAndUpdateSubscriptionGroupConfig(masterAddr,subscriptionGroupConfig);
 

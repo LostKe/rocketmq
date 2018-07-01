@@ -33,6 +33,8 @@ public class Test1 {
         defaultMQAdminExt.start();
 
         //消费组绑定topic
+
+        //TODO 绑定了topic 这里怎么去接收订阅到的消息？
     }
 
     //显示所有gruop
